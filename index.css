@@ -4,7 +4,7 @@
     padding: 0;
     /* background-color: rgb(180, 214, 214); */
 }
-#nav{
+#navbar{
     Padding: 16px 78px;
    Background-color: #fff ;
    /* box-shadow: #000; */
@@ -14,7 +14,7 @@
    width:1380px;
    /* margin-bottom:80px; */
 }
-#main1{
+#main{
     display:flex;
     width:100%;
 }
@@ -24,17 +24,17 @@
     margin-left: -30px;
 }
 
-#exp{
+#exp1{
     margin:20px 0px 0px 380px;
    display:flex;
    gap: 50px;
 }
-#exp>a{
+#exp1>a{
     text-decoration: none;
     color: grey;
     font-size: 20px;
 }
-#exp>a:hover{
+#exp1>a:hover{
     color: black;
     border-bottom: 4px solid rgb(76, 9, 231);
     /* text-decoration:underline; */
@@ -52,14 +52,14 @@
         background-color:#FFD8DB;
         border: none;
         border-radius: 40px;
-        margin-left: 400px;
+        margin-left: 150px;
         margin-top: 15px;
 }
 #a{
     text-decoration: none;
     color:  #4633b5;
 }
-#content{
+#container{
     height:750px;
     width:100%;
     padding-top: 100px;
@@ -67,12 +67,12 @@
     /* background-color: #f2f6ff; */
     display: flex;
 }
-#text{
+#text1{
     font-size: 120px;
     font-weight: 900;
     /* line-height: 1.94; */
     letter-spacing: -.9px;
-    margin-left: 160px;
+    margin-left: 100px;
     /* margin-top:40px; */
      /* width:500px;
      height:400px; */
@@ -83,19 +83,19 @@
     color:blue;
 }
 #img{
-    margin-left: -100px;
+    margin-left: -50px;
     height:700px;
-    width:700px;
+    width:550px;
 }
-#p{
+#pt1{
     color:grey;
-    margin-left: 160px;
+    margin-left: 100px;
     margin-top:30px;
     font-size: 22px;
 }
 #p1{
     color:grey;
-    margin-left: 160px;
+    margin-left: 100px;
     margin-top:5px;
     font-size: 22px;
     margin-bottom:20px;
@@ -112,22 +112,22 @@ color: white;
 background-color:#4d16a6;
 border: none;
 border-radius: 40px;
-margin-left: 160px;
+margin-left: 100px;
 padding-top: -200px;
 }
 #img1{
 /* margin-top:20px; */
  margin-left: 50px;
 }
-#des{
-    margin-left: 160px;
+#descr{
+    margin-left: 100px;
     display: flex;
-    width:43%;
+    width:50%;
     margin-top: 70px;
     background-color: rgb(185, 184, 184);
     border-radius: 10px;
 }
-#des:hover{
+#descr:hover{
     background-color: #fff;
     border-radius: 10px;
 }
@@ -156,16 +156,16 @@ padding-top: -200px;
     margin-left:15px;
     margin-top:10px;
 }
-#des1{
-    margin-left: 160px;
+#descr1{
+    margin-left: 100px;
     display: flex;
     margin-top: 20px;
-    width:43%;
+    width:50%;
     /* margin-top: 70px; */
     background-color: rgb(185, 185, 185);
     border-radius: 10px;
 }
-#des1:hover{
+#descr1:hover{
     background-color: #fff;
     border-radius: 10px;
 }
